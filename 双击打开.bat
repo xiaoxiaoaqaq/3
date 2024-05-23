@@ -1,61 +1,61 @@
 echo off
-:: ¹Ø±Õ»ØÏÔ
-title OPPO K9 Pro×¨ÓÃ......
-:: title:ÉèÖÃ±êÌâ£¬ºóÃæ½Ó±êÌâÃû³Æ
+:: å…³é—­å›žæ˜¾
+title OPPO K9 Proä¸“ç”¨......
+:: title:è®¾ç½®æ ‡é¢˜ï¼ŒåŽé¢æŽ¥æ ‡é¢˜åç§°
 
 goto 1
-:: gotoÊÇÇ°Íù£¬go toµÄÒâË¼(BatÖ»ÄÜÐ´goto)
+:: gotoæ˜¯å‰å¾€ï¼Œgo toçš„æ„æ€(Batåªèƒ½å†™goto)
 
 :1
 cls
-:: Çå³ýÒ³ÃæÉÏµÄ×Ö·û£¬´Ë´¦ÓÃÓÚ¶µµ×£¬·ÀÖ¹Á¬ÐøÏÔÊ¾Á½´Î
+:: æ¸…é™¤é¡µé¢ä¸Šçš„å­—ç¬¦ï¼Œæ­¤å¤„ç”¨äºŽå…œåº•ï¼Œé˜²æ­¢è¿žç»­æ˜¾ç¤ºä¸¤æ¬¡
 echo **************************************
 echo.
-echo ÄãÒªÇ°ÍùÄÄÀï£¿
-:: echoºó½ÓÎÄ×ÖÊÇÏÔÊ¾ÎÄ×Ö 
-:: echoºó¼Ó.ÊÇÏÔÊ¾¿Õ°×ÐÐ
+echo ä½ è¦å‰å¾€å“ªé‡Œï¼Ÿ
+:: echoåŽæŽ¥æ–‡å­—æ˜¯æ˜¾ç¤ºæ–‡å­— 
+:: echoåŽåŠ .æ˜¯æ˜¾ç¤ºç©ºç™½è¡Œ
 echo.
-echo 1.FastBootÇø
+echo 1.FastBootåŒº
 echo.
-echo 2.ADBÇø
+echo 2.ADBåŒº
 echo.
-echo 3.DSUÇø
+echo 3.DSUåŒº
 echo.
-echo 4.²¿·Ö°æ±¾Root
+echo 4.éƒ¨åˆ†ç‰ˆæœ¬Root
 echo.
 echo **************************************
 set /p choice=
-:: setÊÇÉè¶¨ /pÓÃÓÚÔÝÍ£ choiceÊÇÖµµÄÃû³Æ
-:: =ÊÇ¸³Öµ ËùÒÔ1+1=2Ó¦¸ÃÐ´1+1==2
+:: setæ˜¯è®¾å®š /pç”¨äºŽæš‚åœ choiceæ˜¯å€¼çš„åç§°
+:: =æ˜¯èµ‹å€¼ æ‰€ä»¥1+1=2åº”è¯¥å†™1+1==2
 if "%choice%"=="1" goto FastBootMode
 if "%choice%"=="2" goto ADBMode
 if "%choice%"=="3" goto DSUMode
 if "%choice%"=="4" goto Root
-:: ifÊÇÈç¹û
-:: ·­Òë:
-:: Èç¹û choice µÈÓÚ Ä³¸ö×Ö·û(ÕâÀïÖ»Ð´ÁË1 2 3£¬a b c d...Ò²ÊÇ¿ÉÒÔµÄ£¬ËùÓÐµÄ×Ö·û¶¼ÐÐ) Ç°Íù Ãû×Ö
-:: Èç¹ûÊäÈëµÄ²»¶Ô»á×Ô¶¯·µ»Ø£¬¿ÉÒÔÓÃcls¶µµ×
-:: µ½ÕâÀïºóÃæ¾ÍÃ»ÓÐÊ²Ã´×¢ÊÍÁË(¸Ã½âÊÍµÄ¶¼½âÊÍÍêÁË)
+:: ifæ˜¯å¦‚æžœ
+:: ç¿»è¯‘:
+:: å¦‚æžœ choice ç­‰äºŽ æŸä¸ªå­—ç¬¦(è¿™é‡Œåªå†™äº†1 2 3ï¼Œa b c d...ä¹Ÿæ˜¯å¯ä»¥çš„ï¼Œæ‰€æœ‰çš„å­—ç¬¦éƒ½è¡Œ) å‰å¾€ åå­—
+:: å¦‚æžœè¾“å…¥çš„ä¸å¯¹ä¼šè‡ªåŠ¨è¿”å›žï¼Œå¯ä»¥ç”¨clså…œåº•
+:: åˆ°è¿™é‡ŒåŽé¢å°±æ²¡æœ‰ä»€ä¹ˆæ³¨é‡Šäº†(è¯¥è§£é‡Šçš„éƒ½è§£é‡Šå®Œäº†)
 
 :FastBootMode
 cls
 echo **************************************
 echo.
-echo FastBoot¹¦ÄÜ
+echo FastBootåŠŸèƒ½
 echo.
 echo **************************************
 echo.
-echo 0.·µ»ØÉÏÒ»¼¶
+echo 0.è¿”å›žä¸Šä¸€çº§
 echo.
 echo **************************************
 echo.
-echo 1.Ë¢ÈëÖ¸¶¨·ÖÇø£¬Ö¸¶¨ÎÄ¼þ
+echo 1.åˆ·å…¥æŒ‡å®šåˆ†åŒºï¼ŒæŒ‡å®šæ–‡ä»¶
 echo.
-echo 2.½âËøBootloaderËø
+echo 2.è§£é”Bootloaderé”
 echo.
-echo 3.Ëø¶¨Bootloder
+echo 3.é”å®šBootloder
 echo.
-echo 4.240°æ±¾½âËøBootloderºóRoot
+echo 4.240ç‰ˆæœ¬è§£é”BootloderåŽRoot
 echo.
 echo **************************************
 set /p choice=
@@ -67,41 +67,41 @@ if "%choice%"=="4" goto 240Root
 
 :Flash
 cls
-echo ÊäÈë·ÖÇøÃû:
+echo è¾“å…¥åˆ†åŒºå:
 set /p name=
-echo ÍÏÈëÎÄ¼þ
+echo æ‹–å…¥æ–‡ä»¶
 set /p file=
-echo °´ÈÎÒâ¼ü¿ªÊ¼Ö´ÐÐ
+echo æŒ‰ä»»æ„é”®å¼€å§‹æ‰§è¡Œ
 pause
-echo ÒÔÏÂÊÇÊä³öÐÅÏ¢
+echo ä»¥ä¸‹æ˜¯è¾“å‡ºä¿¡æ¯
 echo **************************************
-\platform-tools\fastboot.exe flash "%name%" "%file%"
+\platform-tools\fastboot.exe flash %name% %file%
 echo **************************************
-echo °´ÈÎÒâ¼ü·µ»Ø
+echo æŒ‰ä»»æ„é”®è¿”å›ž
 pause
 goto FadtBootMode
 
 :UnlockBootloader
 cls
-echo °´ÈÎÒâ¼ü¿ªÊ¼
+echo æŒ‰ä»»æ„é”®å¼€å§‹
 pause
-echo ÒÔÏÂÊÇÊä³öÐÅÏ¢
+echo ä»¥ä¸‹æ˜¯è¾“å‡ºä¿¡æ¯
 echo **************************************
 \platform-tools\fastboot.exe flashing unlock
 echo **************************************
-echo °´ÈÎÒâ¼ü·µ»Ø
+echo æŒ‰ä»»æ„é”®è¿”å›ž
 pause
 goto FastBootMode
 
 :LockBootloader
 cls
-echo °´ÈÎÒâ¼ü¿ªÊ¼
+echo æŒ‰ä»»æ„é”®å¼€å§‹
 pause
-echo ÒÔÏÂÊÇÊä³öÐÅÏ¢
+echo ä»¥ä¸‹æ˜¯è¾“å‡ºä¿¡æ¯
 echo **************************************
 \platform-tools\fastboot.exe flashing lock
 echo **************************************
-echo °´ÈÎÒâ¼ü·µ»Ø
+echo æŒ‰ä»»æ„é”®è¿”å›ž
 pause
 goto FastBootMode
 
@@ -109,15 +109,15 @@ goto FastBootMode
 cls
 echo **************************************
 echo.
-echo 0.·µ»ØÉÏÒ»¼¶
+echo 0.è¿”å›žä¸Šä¸€çº§
 echo.
 echo **************************************
 echo.
-echo 1.¼¤»îShizuku
+echo 1.æ¿€æ´»Shizuku
 echo.
-echo 2.°²×°APK
+echo 2.å®‰è£…APK
 echo.
-echo 3.DSU Sideloader°²×°(µ½Ö´ÐÐÃüÁîÊ±)
+echo 3.DSU Sideloaderå®‰è£…(åˆ°æ‰§è¡Œå‘½ä»¤æ—¶)
 echo.
 echo **************************************
 set /p choice=
@@ -128,36 +128,36 @@ if "%choice%"=="3" goto installDSUSideloader
 
 :Shizuku
 cls
-echo °´ÈÎÒâ¼ü¿ªÊ¼
+echo æŒ‰ä»»æ„é”®å¼€å§‹
 pause
-echo ÒÔÏÂÊÇÊä³öÐÅÏ¢
+echo ä»¥ä¸‹æ˜¯è¾“å‡ºä¿¡æ¯
 echo **************************************
 \platform-tools\adb.exe shell sh /storage/emulated/0/Android/data/moe.shizuku.privileged.api/start.sh
 echo **************************************
-echo °´ÈÎÒâ¼ü·µ»Ø
+echo æŒ‰ä»»æ„é”®è¿”å›ž
 pause
 goto ADBMode
 
 :installAPK
 cls
-echo ÍÏÈëAPKÎÄ¼þ
+echo æ‹–å…¥APKæ–‡ä»¶
 set /p file=
 pause
-echo °´ÈÎÒâ¼ü¿ªÊ¼
+echo æŒ‰ä»»æ„é”®å¼€å§‹
 pause
-echo ÒÔÏÂÊÇÊä³öÐÅÏ¢
+echo ä»¥ä¸‹æ˜¯è¾“å‡ºä¿¡æ¯
 echo **************************************
 \platform-tools\adb.exe install "%file%"
 echo **************************************
-echo °´ÈÎÒâ¼ü·µ»Ø
+echo æŒ‰ä»»æ„é”®è¿”å›ž
 pause
 goto ADBMode
 
 :installDSUSideloader
 cls
-echo °´ÈÎÒâ¼ü¿ªÊ¼
+echo æŒ‰ä»»æ„é”®å¼€å§‹
 pause
-echo ÒÔÏÂÊÇÊä³öÐÅÏ¢
+echo ä»¥ä¸‹æ˜¯è¾“å‡ºä¿¡æ¯
 echo **************************************
 \platform-tools\adb.exe shell sh "/storage/emulated/0/Android/data/vegabobo.dsusideloader/files/install"
 echo **************************************
@@ -166,13 +166,13 @@ echo **************************************
 cls
 echo **************************************
 echo.
-echo 0.·µ»ØÉÏÒ»¼¶
+echo 0.è¿”å›žä¸Šä¸€çº§
 echo.
 echo **************************************
 echo.
-echo 1.¿ªÆô¶¯Ì¬ÏµÍ³ð¤ÖÍ
+echo 1.å¼€å¯åŠ¨æ€ç³»ç»Ÿé»æ»ž
 echo.
-echo 2.¹Ø±Õ¶¯Ì¬ÏµÍ³ð¤ÖÍ
+echo 2.å…³é—­åŠ¨æ€ç³»ç»Ÿé»æ»ž
 echo.
 echo **************************************
 set /p choice=
@@ -182,13 +182,13 @@ if "%choice%"=="2" goto NormalReboot
 
 :AbnormalReboot
 cls
-echo °´ÈÎÒâ¼ü¿ªÊ¼
+echo æŒ‰ä»»æ„é”®å¼€å§‹
 pause
-echo ÒÔÏÂÊÇÊä³öÐÅÏ¢
+echo ä»¥ä¸‹æ˜¯è¾“å‡ºä¿¡æ¯
 echo **************************************
 \platform-tools\adb.exe shell gsi_tool enable
 echo **************************************
-echo °´ÈÎÒâ¼ü·µ»Ø
+echo æŒ‰ä»»æ„é”®è¿”å›ž
 pause
 goto DSUMode
 
@@ -197,39 +197,39 @@ cls
 echo **************************************
 \platform-tools\adb.exe shell gsi_tool disable
 echo **************************************
-echo °´ÈÎÒâ¼ü·µ»Ø
+echo æŒ‰ä»»æ„é”®è¿”å›ž
 pause
 goto DSUMode
 
 :Root
 echo **************************************
 echo.
-echo 0.·µ»ØÉÏÒ»¼¶
+echo 0.è¿”å›žä¸Šä¸€çº§
 echo.
 echo **************************************
 echo.
-echo ×¢ÒâÔÚÒªFastBootÄ£Ê½ÏÂ
+echo æ³¨æ„åœ¨è¦FastBootæ¨¡å¼ä¸‹
 echo.
-echo 1.PEYM00_13.1.0.240°æ±¾
+echo 1.PEYM00_13.1.0.240ç‰ˆæœ¬
 echo. 
 echo **************************************
-echo Èç¹ûÐèÒªÆäËû°æ±¾£¬ÇëÔÚÆÀÂÛÇø·¢¸øÎÒÔ­°æBoot²¢Ìá¹©°æ±¾ºÅ½ØÍ¼
+echo å¦‚æžœéœ€è¦å…¶ä»–ç‰ˆæœ¬ï¼Œè¯·åœ¨è¯„è®ºåŒºå‘ç»™æˆ‘åŽŸç‰ˆBootå¹¶æä¾›ç‰ˆæœ¬å·æˆªå›¾
 if 
 
 :240Root
 cls
 echo **************************************
 echo.
-echo 0.·µ»ØÉÏÒ»¼¶
+echo 0.è¿”å›žä¸Šä¸€çº§
 echo.
 echo **************************************
 echo.
-echo ÇëÑ¡Ôñ°æ±¾
+echo è¯·é€‰æ‹©ç‰ˆæœ¬
 echo.
-echo 1.Magisk 27000ÒÑ¹ýÇ©ÃûÐ£Ñé
+echo 1.Magisk 27000å·²è¿‡ç­¾åæ ¡éªŒ
 echo. 
-echo 2.KernelSU 11850ÒÑ¹ýÇ©ÃûÐ£Ñé(ÓÐBug)
-echo ÓÃReno6ProÄÚºËÔ´Âë±àÒë³öµÄ£¬ÄÜÊ¹ÓÃ
+echo 2.KernelSU 11850å·²è¿‡ç­¾åæ ¡éªŒ(æœ‰Bug)
+echo ç”¨Reno6Proå†…æ ¸æºç ç¼–è¯‘å‡ºçš„ï¼Œèƒ½ä½¿ç”¨
 echo.
 echo **************************************
 set /p choice=
@@ -241,24 +241,24 @@ if "%choice%"=="2" goto 240KernelSURoot
 
 :240MagsikRoot
 cls
-echo °´ÈÎÒâ¼ü¿ªÊ¼
+echo æŒ‰ä»»æ„é”®å¼€å§‹
 pause
-echo ÒÔÏÂÊÇÊä³öÐÅÏ¢
+echo ä»¥ä¸‹æ˜¯è¾“å‡ºä¿¡æ¯
 echo **************************************
 \platform-tools\fastboot.exe flash boot \files\UnofficialFiles\Boot\13.1.0.240\Magisk\boot.img
 echo **************************************
-echo °´ÈÎÒâ¼ü·µ»Ø
+echo æŒ‰ä»»æ„é”®è¿”å›ž
 pause
 goto Root
 
 :240KernelSURoot
 cls
-echo °´ÈÎÒâ¼ü¿ªÊ¼
+echo æŒ‰ä»»æ„é”®å¼€å§‹
 pause
-echo ÒÔÏÂÊÇÊä³öÐÅÏ¢
+echo ä»¥ä¸‹æ˜¯è¾“å‡ºä¿¡æ¯
 echo **************************************
 \platform-tools\fastboot.exe flash boot \files\UnofficialFiles\Boot\13.1.0.240\KernelSU\boot.img
 echo **************************************
-echo °´ÈÎÒâ¼ü·µ»Ø
+echo æŒ‰ä»»æ„é”®è¿”å›ž
 pause
 goto Root
